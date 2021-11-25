@@ -100,13 +100,22 @@ body {
 }
 
 .c_moon {
-    animation-duration: 2s;
     width: 75px;
     height: 75px;
 }
 
+@keyframes moon-lighting-update {
+    50% {
+        background: #cfcfcf;
+    }
+    100% {
+        background: #4e4e4e;
+    }
+}
+
 .moon {
-    background: linear-gradient(100deg, black, 20%, whitesmoke);
+    background: #4e4e4e;
+    animation: moon-lighting-update 2s infinite linear;
     width: 10px;
     height: 10px;
     top: 13px;
@@ -119,7 +128,7 @@ body {
 }
 
 .mars {
-    background: linear-gradient(100deg, black, 50%, brown);
+    background: linear-gradient(100deg, black, 60%, brown);
     display: flex;
     justify-content: center;
     align-items: center;
