@@ -13,7 +13,7 @@ final class DatabaseUtils {
      * 
      * @throws Exception If instantiation is attempted.
      */
-    public function __construct() {
+    private function __construct() {
         throw new \Exception("This class cannot be instantiated.");
     }
 
