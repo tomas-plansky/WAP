@@ -4,4 +4,4 @@ A simple design of a depature board for airports.
 
 ## Screenshots
 
-![Screenshot](/departure-board/screenshot01.PNG?raw=true)
+![Screenshot](/departure-board/screenshots/screenshot01.PNG?raw=true)
