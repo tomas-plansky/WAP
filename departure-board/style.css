@@ -1,0 +1,46 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000;
+    color: yellow;
+    font-family: Wallpoet, cursive;
+    font-size: 1.5em;
+    width: 100%;
+}
+
+h1 {
+    margin: 1em;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+table, tr, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 1em;
+}
+
+tr.title > td {
+    padding: 0.5em;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+table {
+    width: 100%;
+}
+
+.container {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.flight-container {
+    display: grid;
+    -ms-grid-column-align: stretch;
+}
+
